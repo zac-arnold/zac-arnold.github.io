@@ -43,7 +43,7 @@ CLASS
 
 .leftdiv{
     float: left;
-    width: 50%; 
+    width: 50%;
 }
 .rightdiv{
     float: right;
@@ -52,7 +52,7 @@ CLASS
 
 .columnleft{
     float: left;
-    width: 50%; 
+    width: 50%;
 }
 
 .columnright{
@@ -60,6 +60,9 @@ CLASS
     width: 50%;
 }
 
+#headercolor{
+    color: cornflowerblue;
+}
 
 @media{
     max-width: 100%;
