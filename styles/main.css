@@ -25,11 +25,12 @@ h3 {
 p {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: justify;
 }
 img {
 width: 70%;
 padding-left: 20%;
+align-self: left;
 }
 
 a {
@@ -58,6 +59,16 @@ CLASS
 .columnright{
     float: right;
     width: 50%;
+}
+
+.figtxt {
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr{
+    width: 600px;
+    color: slateblue;
 }
 
 #headercolor{
