@@ -70,8 +70,27 @@ hr{
     color: cornflowerblue;
 }
 
-@media{
+@media (max-width: 1200px) {
     max-width: 100%;
     display: block;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    body {
+        background-color: blue;
+        color: linen;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        background-color: red;
+        color: linen;
+    }
+}
+
+
+
+
+
